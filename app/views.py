@@ -26,7 +26,7 @@ def contact():
     if form.validate_on_submit():
         msg1 = Message(form.subject.data, 
             sender = (form.name.data, form.email.data,),
-            recipients = [app.config["MAIL_USERNAME"]])
+            recipients = ["javonpeart@gmail.com"])
         msg1.body = form.msg.data
         mail.send(msg1)
         flash('Your message has been sent!')

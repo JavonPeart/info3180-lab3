@@ -36,7 +36,7 @@ body {
     border: 1px solid gray;
     border-radius: 5px;
     font-size: 1rem;
-    width: 20vw;
+    width: 25vw;
 }
 
 .formcontainer form input[type="submit"] {
@@ -50,5 +50,9 @@ body {
 
 .formcontainer form .box p{
     color: red;
+}
+
+.formcontainer form .box textarea#msg{
+    height: 165px;
 }
 
